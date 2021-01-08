@@ -8,6 +8,7 @@ header {
   color: #b3b3b3;
   font-size: 32px;
   display: inline;
+  margin: auto 0;
 }
 .head p b {
   color: #000000
