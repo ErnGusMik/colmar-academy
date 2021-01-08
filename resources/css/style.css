@@ -1,0 +1,27 @@
+/* Header (nav, logo) */
+header {
+  height: 64px;
+  border-bottom: 1px solid #b3b3b3;
+  background-color: white;
+  padding: 0 24px;
+}
+header p {
+  color: #b3b3b3;
+  font-size: 32px;
+}
+header p b {
+  color: #000000
+}
+header img {
+  height: 100%;
+}
+header nav ul {
+  list-style-type: none;
+}
+header nav ul li {
+  color: #1a1a1a;
+  display: inline;
+  margin-left: 16px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
