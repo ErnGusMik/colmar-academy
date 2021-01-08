@@ -3,21 +3,21 @@ header {
   border-bottom: 1px solid #b3b3b3;
   background-color: white;
   padding: 0 24px;
+  display: flex;
+  align-items: center;
 }
 .head p {
   color: #b3b3b3;
   font-size: 32px;
   display: inline;
-  margin: auto 0;
 }
 .head p b {
   color: #000000
 }
 .head img {
   height: 100%;
-  display: inline;
 }
-.head nav {
+.head nav ul {
   list-style-type: none;
   display: inline;
   float: right;
