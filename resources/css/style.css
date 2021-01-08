@@ -1,4 +1,3 @@
-/* Header (nav, logo) */
 header {
   height: 64px;
   border-bottom: 1px solid #b3b3b3;
@@ -8,6 +7,7 @@ header {
 .head p {
   color: #b3b3b3;
   font-size: 32px;
+  display: inline;
 }
 .head p b {
   color: #000000
@@ -15,13 +15,15 @@ header {
 .head img {
   height: 100%;
 }
-.head nav ul {
+.head nav {
   list-style-type: none;
+  display: inline;
+  float: right;
 }
 .head nav ul li {
   color: #1a1a1a;
   display: inline;
-  margin-left: 16px;
+  padding-left: 16px;
   margin-top: auto;
   margin-bottom: auto;
 }
