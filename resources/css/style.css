@@ -5,20 +5,20 @@ header {
   background-color: white;
   padding: 0 24px;
 }
-header p {
+.head p {
   color: #b3b3b3;
   font-size: 32px;
 }
-header p b {
+.head p b {
   color: #000000
 }
-header img {
+.head img {
   height: 100%;
 }
-header nav ul {
+.head nav ul {
   list-style-type: none;
 }
-header nav ul li {
+.head nav ul li {
   color: #1a1a1a;
   display: inline;
   margin-left: 16px;
