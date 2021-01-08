@@ -15,6 +15,7 @@ header {
 }
 .head img {
   height: 100%;
+  display: inline;
 }
 .head nav {
   list-style-type: none;
