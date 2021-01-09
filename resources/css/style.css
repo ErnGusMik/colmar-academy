@@ -55,6 +55,9 @@ header {
   align-items: center;
   justify-content: center;
 }
+.banner ul {
+  list-style-type: none;
+}
 .banner img {
   width: 60%;
   margin: 32px 24px;
