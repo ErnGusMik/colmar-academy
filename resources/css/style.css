@@ -1,6 +1,6 @@
 /* Universal */
 .gray {
-  background-color: #b3b3b3;
+  background-color: #bfbfbf;
 }
 body {
   font-family: sans-serif;
@@ -8,7 +8,7 @@ body {
 /* Header */
 header {
   height: 64px;
-  border-bottom: 1px solid #b3b3b3;
+  border-bottom: 1px solid #bfbfbf;
   background-color: white;
   padding: 0 24px;
   display: flex;
@@ -16,14 +16,14 @@ header {
   overflow: hidden;
 }
 .head p {
-  color: #b3b3b3;
+  color: #bfbfbf;
   font-size: 32px;
   display: inline;
   float:left;
   position: relative;
 }
 .head p b {
-  color: #000000
+  color: #333333;
 }
 .head img {
   height: 100%;
@@ -44,7 +44,7 @@ header {
   padding-right: 16px;
 }
 .head nav ul li a {
-  color: #1a1a1a;
+  color: #404040;
   float: right;
   font-size: 32px;
   text-decoration: none;
@@ -61,4 +61,15 @@ header {
 }
 .banner h1 {
   font-weight: bold;
+  font-size: 50px;
+}
+.banner p {
+  font-size: 32px;
+}
+.banner button {
+  padding: 20px 120px;
+  font-size: 20px;
+  background-color: #404040;
+  color: white;
+  border: none;
 }
