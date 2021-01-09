@@ -55,7 +55,7 @@ header {
   align-items: center;
   justify-content: center;
 }
-.banner ul {
+.banner ul li {
   list-style-type: none;
 }
 .banner img {
