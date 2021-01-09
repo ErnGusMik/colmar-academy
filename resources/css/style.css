@@ -62,14 +62,14 @@ header {
   width: 60%;
   margin: 32px 24px;
 }
-.banner h1 {
+.banner ul h1 {
   font-weight: bold;
   font-size: 50px;
 }
-.banner p {
+.banner ul p {
   font-size: 32px;
 }
-.banner button {
+.banner ul button {
   padding: 20px 120px;
   font-size: 20px;
   background-color: #404040;
