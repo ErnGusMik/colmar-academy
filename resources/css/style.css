@@ -5,27 +5,36 @@ header {
   padding: 0 24px;
   display: flex;
   align-items: center;
+  overflow: hidden;
 }
 .head p {
   color: #b3b3b3;
   font-size: 32px;
   display: inline;
+  float:left;
+  position: relative;
 }
 .head p b {
   color: #000000
 }
 .head img {
   height: 100%;
+  float: left;
+  position: relative;
 }
 .head nav ul {
-  list-style-type: none;
-  display: inline;
-  justify-content: flex-end;
+  float: right;
+  position: absolute;
+  right: 0;
+  margin: auto;
 }
 .head nav ul li {
-  color: #1a1a1a;
-  display: inline;
-  padding-left: 16px;
-  margin-top: auto;
-  margin-bottom: auto;
+  list-style-type: none;
+  display: inline-block;
+  padding-right:16px;
+  margin: 0;
+  padding-right: 16px;
 }
+.head nav ul li a {
+  color: #1a1a1a;
+  float: right;
