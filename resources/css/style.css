@@ -214,3 +214,25 @@ header {
   list-style-type: none;
   float: right;
 }
+/* Footer */
+footer {
+  padding: 16px 24px;
+  border-top: 1px solid #9d9d9d;
+}
+footer .copy {
+float: left;
+}
+footer .terms {
+display: inline;
+list-style-type: none;
+float: right;
+}
+footer .terms {
+  display: flex;
+  flex-direction: row;
+  margin: 16px;
+}
+footer .terms p a {
+margin: 16px;
+align-items: center;
+}
