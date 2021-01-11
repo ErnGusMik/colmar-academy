@@ -179,9 +179,24 @@ header {
 .thesis .main video {
   width: 100%;
 }
+.thesis .side-all {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  width: 40%
+}
 .thesis .side {
   display: flex;
-  width: 40%;
-  padding: 16px 16px;
+  width: 100%;
   float: right;
+}
+.thesis .side img {
+  width: 35%;
+  margin: 16px;
+  vertical-align: middle;
+}
+.thesis .side ul {
+  list-style-type: none;
+  width: 65%;
+  vertical-align: middle;
 }
