@@ -171,3 +171,17 @@ header {
 .courses .learn h2, .courses .learn p {
   margin: 16px 16px;
 }
+/* Thesis Section */
+.thesis .main {
+  width: 60%;
+  padding: 24px 32px;
+}
+.thesis .main video {
+  width: 100%;
+}
+.thesis .side {
+  display: flex;
+  width: 40%;
+  padding: 16px 16px;
+  float: right;
+}
