@@ -106,11 +106,11 @@ header {
 .news .main img {
   width: 100%;
   margin-bottom: 32px;
+  height: auto;
 }
 .news .side-all {
   float: right;
   width: 40%;
-  padding: 0 0;
   vertical-align: middle;
 }
 .news .side {
@@ -131,4 +131,7 @@ header {
   width: 65%;
   list-style-type: none;
   float: right;
+}
+.news .top {
+  margin-top: 32px;
 }
