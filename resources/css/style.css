@@ -2,8 +2,23 @@
 .gray {
   background-color: #bfbfbf;
 }
+.text-gray {
+  color: #8c8c8c;
+}
 body {
   font-family: sans-serif;
+}
+h1, h2, h3, p, a {
+  color: #404040;
+}
+h1 {
+  font-size: 50px;
+}
+.black {
+  color: #404040;
+}
+p {
+  font-size: 20px;
 }
 /* Header */
 header {
@@ -23,7 +38,7 @@ header {
   position: relative;
 }
 .head p b {
-  color: #333333;
+  color: #404040;
 }
 .head img {
   height: 100%;
@@ -49,7 +64,7 @@ header {
   font-size: 32px;
   text-decoration: none;
 }
-/* Main -- Banner */
+/* Main Section -- Banner */
 .banner {
   display: flex;
   align-items: center;
@@ -75,4 +90,44 @@ header {
   background-color: #404040;
   color: white;
   border: none;
+}
+/* News section -- Right under .banner  */
+.news {
+  display: flex;
+  width: 100%;
+  vertical-align: middle;
+  clear: both;
+}
+.news .main {
+  width: 60%;
+  padding: 32px 24px;
+  border-right: #bfbfbf;
+}
+.news .main img {
+  width: 100%;
+  margin-bottom: 32px;
+}
+.news .side-all {
+  float: right;
+  width: 40%;
+  padding: 0 0;
+  vertical-align: middle;
+}
+.news .side-all .side {
+  width: 100%;
+  float: right;
+  padding: 16px 16px;
+  display: flex;
+}
+.news .side img {
+  width: 35%;
+  height: auto;
+  vertical-align: middle;
+  float: left;
+}
+.news .side ul {
+  vertical-align: middle;
+  width: 65%;
+  list-style-type: none;
+  float: right;
 }
