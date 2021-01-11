@@ -145,7 +145,10 @@ header {
   margin-top: 32px;
 }
 .courses .learn-all {
-  margin: 32px auto;
+  margin: 32px 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .courses .three {
   display: flex;
