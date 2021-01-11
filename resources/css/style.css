@@ -1,4 +1,7 @@
 /* Universal */
+* {
+  box-sizing: border-box;
+}
 .gray {
   background-color: #bfbfbf;
 }
@@ -69,6 +72,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #d9d9d9
 }
 .banner ul li {
   list-style-type: none;
