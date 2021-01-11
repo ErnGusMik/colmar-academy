@@ -172,31 +172,45 @@ header {
   margin: 16px 16px;
 }
 /* Thesis Section */
-.thesis .main {
+.thesis h1 {
+  text-align: center;
+  margin-top: 32px;
+}
+.container {
+  display: flex;
+  width: 100%;
+  vertical-align: middle;
+  clear: both;
+}
+.thesis .container .main {
   width: 60%;
-  padding: 24px 32px;
+  padding: 32px 24px;
 }
-.thesis .main video {
+.thesis .container .main video {
   width: 100%;
+  margin-bottom: 32px;
+  height: auto;
 }
-.thesis .side-all {
+.thesis .container .side-all {
   float: right;
-  display: flex;
-  flex-direction: column;
-  width: 40%
+  width: 40%;
+  vertical-align: middle;
 }
-.thesis .side {
-  display: flex;
+.thesis .container .side {
   width: 100%;
   float: right;
+  padding: 16px 16px;
+  display: flex;
 }
-.thesis .side img {
+.thesis .container .side img {
   width: 35%;
-  margin: 16px;
+  height: auto;
   vertical-align: middle;
+  float: left;
 }
-.thesis .side ul {
-  list-style-type: none;
-  width: 65%;
+.thesis .container .side ul {
   vertical-align: middle;
+  width: 65%;
+  list-style-type: none;
+  float: right;
 }
