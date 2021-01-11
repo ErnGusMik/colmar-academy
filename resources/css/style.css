@@ -118,6 +118,7 @@ header {
   float: right;
   padding: 16px 16px;
   display: flex;
+  border-bottom: 1px solid #bfbfbf;
 }
 .news .side img {
   width: 35%;
