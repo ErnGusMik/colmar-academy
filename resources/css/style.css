@@ -334,6 +334,9 @@ p {
     margin-top: 16px;
     margin-bottom: 24px;
   }
+  .thesis .container .main {
+    width: 100%;
+  }
 }
 /* Footer */
 footer {
