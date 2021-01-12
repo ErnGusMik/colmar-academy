@@ -86,7 +86,7 @@ p {
     width: 100%;
   }
   .head .mobile img {
-    height: 100%;
+    height: 64px;
   }
   .head .mobile ul {
     height: 100%;
@@ -336,6 +336,7 @@ p {
   }
   .thesis .container .main {
     width: 100%;
+    padding: 0;
   }
 }
 /* Footer */
