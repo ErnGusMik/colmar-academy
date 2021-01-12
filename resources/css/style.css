@@ -86,7 +86,8 @@ p {
     width: 100%;
   }
   .head .mobile img {
-    height: 64px;
+    height: 44px;
+    margin: 10px auto;
   }
   .head .mobile ul {
     height: 100%;
