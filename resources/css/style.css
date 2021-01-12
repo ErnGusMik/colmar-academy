@@ -140,7 +140,7 @@ p {
   }
   .banner img {
     width: 100%;
-    margin: 32px 0;
+    margin: 0 0 32px;
   }
 }
 /* News section -- Right under .banner  */
