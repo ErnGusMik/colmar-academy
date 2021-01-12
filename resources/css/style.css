@@ -78,7 +78,7 @@ p {
 .head .mobile {
   display: none;
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 500px) {
   .head .mobile {
     display: flex;
     height: 64px;
